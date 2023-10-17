@@ -196,7 +196,7 @@ function Product() {
         });
       }
     });
-    setTimeout(()=>{addScaleAnimation();},1200)
+    addScaleAnimation();
     
   }, []);
   useEffect(() => {
