@@ -22,7 +22,7 @@ function SearchCards({ chunckSize }) {
   const navigateNext = (idx) => {
     dispatch(actions.updateSearchStatus({ val: true }));
     const start = (idx * chunckSize)
-    const end = Math.min(6, (idx * chunckSize) + chunckSize);
+    const end = Math.min(size, (idx * chunckSize) + chunckSize);
     setData(data.slice(start,end));
     setPage(idx);
     let pagesBtn = document.querySelectorAll(".pagination-ul li");

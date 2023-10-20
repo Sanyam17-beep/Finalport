@@ -13,7 +13,7 @@ function Searchcontainer({ chunckSize, idx, setPage }) {
   const [isActive, setActive] = useState("false");
   const displayTags = ["Html", "Css", "MERN", "React", "NodeJS", "Responsive", "VITE","Javascript","GSAP","Next"];
   const [tags, setTags] = useState([]);
-
+  const [bgColor, setBgColor] = useState();
   const searchProject = () => {
 
     dispatch(actions.updateSearchStatus({ val: true }));
@@ -89,7 +89,7 @@ function Searchcontainer({ chunckSize, idx, setPage }) {
     setTags(nextTags);
   }
   const addTags = (tag) => {
-    if (!tags.includes(tag)) {
+    if (!tags.includes(tag.toLowerCase())) {
       let query = "";
       let j = 0;
       for (let i of tags) {
@@ -115,9 +115,9 @@ function Searchcontainer({ chunckSize, idx, setPage }) {
     <div>
       <div className="tagandsearch">
         <div className="search-wrapper-tags">
-          {/* <div className="searchIcon">
+          {/*<div className="searchIcon">
           <FontAwesomeIcon icon={faSearchengin} color="#000000" />
-        </div> */}
+        </div>*/}
           <div className="search-input-area-tag">
             <div className="tagging-area">
               {tags.map((t) => {
