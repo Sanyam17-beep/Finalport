@@ -142,10 +142,9 @@ function App({ mobileMenu, setMobileMenu, dateState, setDateState }) {
           </Transition>
 
           <div className="App">
-            <div id="side" onClick={()=>showConnectBox()}> <IoChatbubbleEllipses id='ico' ></IoChatbubbleEllipses>
-              <div className="side-lancer-1" onClick={(event)=>event.stopPropagation()}>
-                <a href={IshanResume} target="_blank">I</a>
-              </div>
+            <div id="side" > <IoChatbubbleEllipses id='ico' onClick={() => showConnectBox()}></IoChatbubbleEllipses>
+          <div id="resume"> <a href={SanyamResume} target="_blank" style={{textDecoration:"none",color:"black"}}>Resume</a></div>
+        </div>
               {/* <div className="side-lancer-2" onClick={(event)=>event.stopPropagation()}>
                 <a href={SanyamResume} target="_blank">S</a>
               </div> */}
