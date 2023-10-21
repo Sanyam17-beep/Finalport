@@ -148,8 +148,6 @@ function App({ mobileMenu, setMobileMenu, dateState, setDateState }) {
               {/* <div className="side-lancer-2" onClick={(event)=>event.stopPropagation()}>
                 <a href={SanyamResume} target="_blank">S</a>
               </div> */}
-              <div id="resume" onClick={(event) => showResumeAnimation(event)}>Resume</div>
-            </div>
             <div id="minicircle"></div>
             <div id="main" data-scroll-container data-scroll-speed="2">
               <Navbar showMenu={showMenu} setShowMenu={setShowMenu} mobile={mobileMenu} toggleMenu={setMobileMenu} id="nav"></Navbar>
