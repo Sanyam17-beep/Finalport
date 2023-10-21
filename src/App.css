@@ -404,9 +404,8 @@ width: 100%;
   #side {
     right: 0px;
   }
-
   .wrapper {
-    top: 41vh;
+    top: 37.5vh;
   }
 
   .moi {
@@ -475,7 +474,9 @@ width: 100%;
   #nav {
     padding: 0.6rem 1.3rem;
   }
-
+#herofooter{
+  bottom: 10% !important;
+}
   #footer {
     padding-bottom: 0px !important;
   }
