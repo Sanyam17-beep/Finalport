@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
   .navItems {
     display: none;
   }
@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
   #minicircle {
     -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     -o-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
   #minicircle {
     display: none;
   }
@@ -790,7 +790,7 @@ width: 100%;
   margin-bottom: 30px;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
   #about img {
     width: 200px;
   }
@@ -829,7 +829,7 @@ width: 100%;
           justify-content: space-between;
   padding: 0px 30px;
 
-  @media screen and (max-width:1400px) {
+  @media screen and (max-width:1000px) {
     display: block;
     padding: 0.75rem 1.25rem 1.25rem;
     text-transform: uppercase;
@@ -844,7 +844,7 @@ width: 100%;
   display: flex;
   gap: 5px;
 
-  @media screen and (max-width:1400px) {
+  @media screen and (max-width:1000px) {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -861,7 +861,7 @@ width: 100%;
   gap: 30px;
   padding: 18px;
 
-  @media screen and (max-width:1400px) {
+  @media screen and (max-width:1000px) {
     display: none;
   }
 

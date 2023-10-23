@@ -62,7 +62,7 @@ function Navbar({showMenu,setShowMenu,mobile,toggleMenu,setText,id}) {
   }
   
   const animatedHide = (event)=>{
-    if(window.innerWidth>1400)
+    if(window.innerWidth>1000)
     {
       gsap.to("#menuHead",0,{height:0,overflow:"hidden"},0.1);
       gsap.to(".navItems",{height:"auto"});
@@ -71,7 +71,7 @@ function Navbar({showMenu,setShowMenu,mobile,toggleMenu,setText,id}) {
       
     }
     else{
-      if(window.innerWidth<1400){
+      if(window.innerWidth<1000){
         let tl = gsap.timeline();
         tl.timeScale(2.5);
         tl.to(".sideContainer",{height:"100%"})

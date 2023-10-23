@@ -1,5 +1,5 @@
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1000px){
     .skills-container{
         padding: 50px 50px 50px 0;
         margin: auto 100px auto 450px;
@@ -11,7 +11,7 @@
 .yol{
     font-size: 13px;
 }
-@media  screen and (max-width:1400px) {
+@media  screen and (max-width:1000px) {
     .images-icon{
         display: none;
     }
@@ -29,7 +29,7 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .images-icon {
         position: absolute;
         z-index: 9999;
@@ -61,7 +61,7 @@
     transition-delay: 200ms;
 }
 
-@media screen  and (min-width:1400px){
+@media screen  and (min-width:1000px){
     .skill-icon-container {
         display: flex;
         justify-content: space-between;
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
     .skill-icon-container{
         display: flex;
         flex-direction: column;
@@ -98,7 +98,7 @@
 
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .skills-content {
         margin-left: 50px;
     }
@@ -145,7 +145,7 @@
     } */
     
 }
-@media  screen  and (max-width:1400px){
+@media  screen  and (max-width:1000px){
     .lineSVG{
         display: none;
     }
@@ -167,7 +167,7 @@
 }
 
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .skill-icon-color-mode {
         width: 150px;
         height: max-content;
@@ -221,14 +221,14 @@
     margin-top: 25vh;
     margin-bottom: 25vh;
 }
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .outer-svg-wrapper:nth-child(4){
         margin-top: 25vh;
         margin-bottom: 25vh;
     }
 }
 
-@media  screen and (max-width:1400px) {
+@media  screen and (max-width:1000px) {
     .outer-svg-wrapper:nth-child(4){
         margin-top: 7vh;
         margin-bottom: 11vh;
@@ -263,7 +263,7 @@
    
   }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
     .cont{
     width: max-content;
     }
@@ -294,7 +294,7 @@ h3{
     margin-inline-end: 0px;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .Sanyam > img{
         display: block;
         margin-left: auto;
@@ -304,7 +304,7 @@ h3{
         content: "ERIENCE";
     }
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
     .Sanyam{
         display: none;
     }
@@ -338,7 +338,7 @@ h3{
     text-align: center;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .extra-skills{
         position: relative;
         top: 45%;
@@ -352,7 +352,7 @@ h3{
     justify-content:space-between ;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .extra-skill-items{
         display: flex;
         justify-content: space-between;
@@ -379,7 +379,7 @@ h3{
     margin-top: 25px;
 }
   
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
     .extra-skill-cat-wrapper{
         display: none;
     }
@@ -410,7 +410,7 @@ h3{
     flex-direction: column;
     margin-right: 100px;
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1000px) {
     .type-of-skill-icon-cat{
         display: flex;
         justify-content: space-between;
@@ -418,7 +418,7 @@ h3{
     }
     
 }
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1000px) {
     .type-of-skill-icon-cat{
         display: flex;
         justify-content: space-evenly;

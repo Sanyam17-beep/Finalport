@@ -97,7 +97,7 @@ function App({ mobileMenu, setMobileMenu, dateState, setDateState }) {
   }, [mobileMenu]);
 
   useEffect(() => {
-    if (window.innerWidth < 1400) {
+    if (window.innerWidth < 1000) {
       setMobileMenu(true);
     } else {
       if (mobileMenu) {

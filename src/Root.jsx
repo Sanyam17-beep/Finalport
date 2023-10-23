@@ -38,7 +38,7 @@ function Root({store:store}) {
     dispatch(countData(query));
   })
   useEffect(() => {
-    if (window.innerWidth < 1400) {
+    if (window.innerWidth < 1000) {
       setMobileMenu(true);
       chunkSize = 1;
     } else {
